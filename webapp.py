@@ -23,7 +23,7 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 import streamlit as st
 from keras.models import load_model
 
-model1 = pk.load(open('DT_model.sav', 'rb'))
+model1 = pk.load(open('BiLSTM_no.h5', 'rb'))
 model2 = pk.load(open('BetterModel.sav', 'rb'))
 
 
